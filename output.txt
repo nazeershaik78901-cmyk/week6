@@ -1,0 +1,11 @@
+# MINI-LAB 1.6: Role-Based and Negative Prompting
+## Question
+Explain the importance of exercise.
+## Prompts Tested
+1. Baseline Prompt
+2. Role-Based Prompt - Motivational Fitness Coach
+3. Role-Based Prompt with Negative Constraints
+## Execution Status
+The Python script executed successfully, but all three Gemini API requests failed with error 429 (RESOURCE_EXHAUSTED) because the free-tier quota was exceeded.
+## Conclusion
+Actual Gemini responses were unavailable during this run. The experiment should be rerun after the API quota becomes available.

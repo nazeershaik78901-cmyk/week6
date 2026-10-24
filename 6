@@ -1,0 +1,49 @@
+# WEEK 6: ROLE-BASED & NEGATIVE PROMPTING
+ 
+print("===== WEEK 6: ROLE-BASED & NEGATIVE PROMPTING =====")
+ 
+role_based_prompt = """
+You are an experienced Python programming teacher.
+ 
+Explain Python functions to a beginner engineering student.
+ 
+Requirements:
+1. Use simple English.
+2. Give a clear definition.
+3. Provide one simple example.
+4. Explain the example clearly.
+"""
+ 
+negative_prompt = """
+Explain Python functions to a beginner.
+ 
+Do NOT:
+1. Use advanced technical terminology.
+2. Give complicated programs.
+3. Write more than 150 words.
+4. Include unrelated topics.
+"""
+ 
+combined_prompt = """
+You are an experienced Python programming teacher.
+ 
+Explain Python functions to a beginner engineering student.
+ 
+Requirements:
+- Give a simple definition.
+- Explain why functions are useful.
+- Give one simple Python example.
+ 
+Do NOT:
+- Use advanced terminology.
+- Give complicated examples.
+- Exceed 150 words.
+- Include unrelated information.
+"""
+ 
+print("\n--- ROLE-BASED PROMPT ---")
+print(role_based_prompt)
+print("\n--- NEGATIVE PROMPT ---")
+print(negative_prompt)
+print("\n--- COMBINED PROMPT ---")
+print(combined_prompt)
